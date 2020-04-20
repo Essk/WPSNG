@@ -37,8 +37,8 @@
                     "key": "field_5e945233a28ba",
                     "label": "Team",
                     "name": "team",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -46,18 +46,51 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d91628291f",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d917382920",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e945240a28bb",
                     "label": "Design",
                     "name": "design",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -65,18 +98,51 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d9298d8e50",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d92a3d8e51",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e94524ba28bc",
                     "label": "Coding",
                     "name": "coding",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -84,18 +150,51 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d92cdd8e52",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d92dcd8e53",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e945255a28bd",
                     "label": "Graphics",
                     "name": "graphics",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -103,18 +202,51 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d92fdd8e54",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d9304d8e55",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e945263a28be",
                     "label": "Font",
                     "name": "font",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -122,18 +254,51 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d9329d8e56",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d9332d8e57",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e94526ba28bf",
                     "label": "Music",
                     "name": "music",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -141,18 +306,51 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d9356d8e58",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d9361d8e59",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e945275a28c0",
                     "label": "Sound",
                     "name": "sound",
-                    "type": "text",
-                    "instructions": "",
+                    "type": "group",
+                    "instructions": "Entering an URL will cause the entry to display with a link, otherwise it will display as plain text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -160,11 +358,44 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "layout": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9d938cd8e5a",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e9d9399d8e5b",
+                            "label": "Url",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
                 },
                 {
                     "key": "field_5e94527ba28c1",
@@ -265,7 +496,7 @@
                     "key": "field_5e9452b0a28c6",
                     "label": "Website",
                     "name": "website",
-                    "type": "text",
+                    "type": "link",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -274,11 +505,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "return_format": "array"
                 }
             ]
         },
@@ -394,7 +621,7 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": 1,
+    "active": true,
     "description": "",
-    "modified": 1587377497
+    "modified": 1587385807
 }
