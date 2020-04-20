@@ -10,7 +10,7 @@ function sng_post() {
 
 	$labels = array(
 		'name'                  => _x( 'SNG Posts', 'Post Type General Name', 'sngtext' ),
-		'singular_name'         => _x( 'SNG post', 'Post Type Singular Name', 'sngtext' ),
+		'singular_name'         => _x( 'Release', 'Post Type Singular Name', 'sngtext' ),
 		'menu_name'             => __( 'SNG Posts', 'sngtext' ),
 		'name_admin_bar'        => __( 'SNG Posts', 'sngtext' ),
 		'archives'              => __( 'Item Archives', 'sngtext' ),
@@ -38,9 +38,10 @@ function sng_post() {
 		'filter_items_list'     => __( 'Filter items list', 'sngtext' ),
 	);
 	$args = array(
-		'label'                 => __( 'SNG post', 'sngtext' ),
+		'label'                 => __( 'Releases', 'sngtext' ),
 		'description'           => __( 'Game or App', 'sngtext' ),
 		'labels'                => $labels,
+		'show_in_rest' => true,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'page-attributes' ),
 		'taxonomies'            => array( 'sng_post_category' ),
 		'hierarchical'          => false,
@@ -52,6 +53,7 @@ function sng_post() {
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
 		'has_archive'           => true,
+		'rewrite'     => array( 'slug' => 'releases' ),
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
