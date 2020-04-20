@@ -303,7 +303,7 @@
             "label": "Images",
             "name": "images",
             "type": "gallery",
-            "instructions": "Set the post featured image for a \"main\" image",
+            "instructions": "Gallery images.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -396,5 +396,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1587209559
+    "modified": 1587377497
 }
