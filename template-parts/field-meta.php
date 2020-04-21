@@ -12,8 +12,8 @@
                         is_array($field) 
                         && array_key_exists('text', $field) 
                         && array_key_exists('url', $field)): 
-                        $text = $fields[$key]['text'];
-                        $url = $fields[$key]['url'];
+                        $text = $field['text'];
+                        $url = $field['url'];
                         $link_text = $text && $text !== '' ? $text : $url;
                         if($url && $url !== ''): ?>
                             <a href="<?php echo $url?>">
@@ -22,8 +22,20 @@
                         <?php else: ?>
                         <?php echo $text; ?>
                         <?php endif; ?>
+                    <?php elseif (
+                        is_array($field) 
+                        && array_key_exists('title', $field) 
+                        && array_key_exists('url', $field)):
+                        $title = $field['title'];
+                        $url = $field['url'];
+                        $link_text = $title && $title !== '' ? $title : $url;
+                        ?>
+                        <a href="<?php echo $link_text?>" $target="<?php echo $field['target']?>">
+                        <?php echo $link_text ?>
+                        </a>
                     <?php else: ?>
-                        <?php echo $value; ?>
+                        <?php echo $value; 
+                        ?>
                     <?php endif; ?>
                     </li>
                 <?php endforeach; ?>    
