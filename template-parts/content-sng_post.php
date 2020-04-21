@@ -6,7 +6,7 @@
 	</div>                                     
 	<div class="clear"></div>                            
 <?php endif; ?> 
-<div class="row rsrc-content">    
+<div class="row rsrc-content bordered-layout">    
 	<?php //left sidebar ?>    
 	<?php get_sidebar( 'left' ); ?>    
 	<article class="col-md-<?php firstmag_main_content_width(); ?> rsrc-main <?php echo get_theme_mod( 'theme-style', 'basic-layout' ) ?>">        
@@ -32,7 +32,7 @@
 						?> 
 					</div>  
 					<?php if ( get_theme_mod( 'float-banner-enable', 0 ) != 0 && get_theme_mod( 'float-banner-single', '' ) != '' ) : ?>
-						<div class="entry-content row" itemprop="articleBody">  
+						<div class="entry-content sng-content row" itemprop="articleBody">  
 							<div class="col-md-9 col-xs-12">
 								<?php
 									if(have_rows('meta')){
@@ -56,7 +56,7 @@
 							</div>
 						</div> 
 					<?php else: ?>
-						<div class="entry-content" itemprop="articleBody">
+						<div class="entry-content sng-content" itemprop="articleBody">
 						<?php
 							if(have_rows('meta')){
 								get_template_part('template-parts/field', 'meta');
@@ -64,7 +64,9 @@
 							if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 								the_excerpt();
 							} else {
+								echo ('<div>');
 								the_content( __( 'Continue reading', 'twentytwenty' ) );
+								echo ('</div>');
 							}
 							if(have_rows('images')){
 								get_template_part('template-parts/field', 'images');

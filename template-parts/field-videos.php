@@ -1,14 +1,16 @@
 <?php 
     if(have_rows('videos')): ?>
-        <ul>
+    <div class="sng-videos">
+        <ul class="sng-videos__list">
         <?php 
         while(have_rows('videos')):
             the_row();
         ?>
-            <li>
+            <li class="sng-videos__item">
                 <?php the_sub_field('video'); ?>
             </li>
         <?php endwhile; ?>  
         </ul>
+    </div>
 <?php 
     endif;

@@ -2,12 +2,12 @@
     if(have_rows('meta')):
         $fields = get_field('meta');
         ?>
-            <aside> 
-                <ul>
+            <aside class="sng-meta"> 
+                <ul class="sng-meta__list">
                 <?php foreach($fields as $key => $value): 
                     $field = $fields[$key];
                     ?>
-                    <li><strong><?php echo($key)?></strong>: 
+                    <li class="sng-meta__item"><strong><?php echo($key)?></strong>: 
                     <?php if(
                         is_array($field) 
                         && array_key_exists('text', $field) 
